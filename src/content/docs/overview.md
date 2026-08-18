@@ -1,8 +1,13 @@
-# Engineering at Code
+---
+title: Overview
+description: An overview of this hub.
+---
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+[Engineering at Code](/) is our documentation hub, where we describe how we do what we do.
 
-Engineering at Code is our documentation hub, where we describe how we do what we do.
+## Architecture
+
+Engineering at Code is built in [Astro](https://astro.build/), using the [Starlight](https://starlight.astro.build/) template. All the design elements are abstracted away from the project itself; all we need to be concerned with is the `src/content/docs` folder, and occasionally, the Starlight integration in `astro.config.mjs`.
 
 ## Structure
 

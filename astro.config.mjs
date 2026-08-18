@@ -2,23 +2,32 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Engineering at Code',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }], // TODO: remove this
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/dentednerd/engineering-at-code' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Getting started',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Contribution Guide', slug: 'guides/contribution-guide' },
-					],
+						'overview',
+						'contribution-guide',
+						'to-do'
+					]
 				},
+				// {
+				// 	label: 'Guides',
+				// 	items: [{ autogenerate: { directory: 'guides' } }],
+				// },
 				{
 					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
+					items: [{
+						label: 'Third party services',
+						items: [{
+							autogenerate: { directory: 'reference/third-party-services' }
+						}]
+					}],
 				},
 			],
 		}),
