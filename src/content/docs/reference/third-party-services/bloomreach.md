@@ -26,6 +26,10 @@ Out-of-the-box integrations are available with commerce platforms like Shopify, 
 - **Commerce Connector / Accelerator**: integration tooling (SDKs, GraphQL service, pre-built components) for connecting Bloomreach to a commerce backend with minimal custom development.
 - **Unified customer/product data**: the shared data foundation (behavioural, transactional, catalog, inventory) that Discovery, Engagement, and Loomi all draw on to personalize experiences.
 
+## How we use Bloomreach
+
+TODO
+
 ## Further reading
 
 - [Bloomreach Documentation](https://documentation.bloomreach.com)

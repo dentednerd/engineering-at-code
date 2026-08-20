@@ -36,6 +36,12 @@ description: A reference page about the Tokens Studio plugin for Figma.
 
 The plugin is free to use. A [Pro licence](https://docs.tokens.studio/get-started/pro-licence) unlocks advanced features (e.g. themes, modified colors, branch switching, non-local variables/styles).
 
+## How we use Tokens Studio for Figma
+
+We use Tokens Studio for Figma to create and manage our design tokens and visual themes across all projects.
+
+See: [Guides > Tokens Studio](/guides/tokens-studio-for-figma/1-get-started/)
+
 ## Further reading
 
 - [Tokens Studio docs](https://docs.tokens.studio/)

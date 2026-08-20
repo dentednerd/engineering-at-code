@@ -32,6 +32,10 @@ SiteSpect sits in the flow of traffic: when a user's browser requests a page, th
 - **Auto optimisation**: a feature that automatically analyzes running campaigns and promotes winning variations.
 - **Omnichannel targeting**: personalization that accounts for a user's behavior and identity across channels (web, mobile, call center, etc.), not just a single session.
 
+## How we use SiteSpect
+
+We use SiteSpect on the Elevate project for A/B testing.
+
 ## Further reading
 
 - [SiteSpect documentation](https://doc.sitespect.com/knowledge)

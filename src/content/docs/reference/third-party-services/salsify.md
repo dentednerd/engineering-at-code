@@ -30,6 +30,10 @@ Salsify is built API-first on a multi-tenant, cloud-hosted SaaS architecture, wi
 - **Workflows**: configurable processes for managing tasks, approvals, and content readiness as product data moves toward publication.
 - **Webhooks**: event-driven notifications that let external systems react to changes in Salsify data in real time.
 
+## How we use Salsify
+
+TODO
+
 ## Further reading
 
 - [Salsify Developer Hub](https://developers.salsify.com)

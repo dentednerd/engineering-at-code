@@ -32,6 +32,10 @@ description: A reference page about Turnstile, the verification service.
 - **Pre-clearance**: a mechanism allowing Turnstile to issue a clearance cookie so single-page applications (SPAs) can integrate Cloudflare challenges without re-challenging on every request.
 - **Turnstile Analytics**: dashboard metrics on challenges issued and challenge solve rate, for monitoring how Turnstile is performing on a site.
 
+## How we use Turnstile
+
+TODO
+
 ## Further reading
 
 - [Cloudflare Turnstile Documentation](https://developers.cloudflare.com/turnstile/)

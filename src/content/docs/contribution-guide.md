@@ -7,17 +7,16 @@ Every engineer at Code is welcome to add and update docs in this hub.
 
 ## Adding and updating docs
 
-1. Contact Joey to be added as a contributor to [https://github.com/dentednerd/engineering-at-code](https://github.com/dentednerd/engineering-at-code).
+1. Get access to the repo. TODO
 2. Setup locally:
 
 ```sh
-git clone https://github.com/dentednerd/engineering-at-code.git
 cd engineering-at-code
 npm i
 npm run dev # Starts local dev server at http://localhost:4321
 ```
 
-3. Add Markdown docs to the appropriate subfolder in `src/content/docs`. Don't forget to add frontmatter at the top of each file, as follows:
+3. Add Markdown docs to the appropriate subfolder in `src/content/docs`. Feel free to use one of the templates in the `templates` folder. If not, don't forget to add frontmatter at the top of each file, as follows:
 
 ```md
 ---

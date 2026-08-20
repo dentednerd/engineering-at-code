@@ -9,17 +9,30 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/dentednerd/engineering-at-code' }],
 			sidebar: [
 				{
-					label: 'Getting started',
+					label: 'Welcome!',
 					items: [
 						'overview',
 						'contribution-guide',
 						'to-do'
 					]
 				},
-				// {
-				// 	label: 'Guides',
-				// 	items: [{ autogenerate: { directory: 'guides' } }],
-				// },
+				{
+					label: 'Guides',
+					items: [
+						{
+							label: 'Tokens Studio in Figma',
+							items: [{ autogenerate: { directory: 'guides/tokens-studio-for-figma' } }],
+						},
+						{
+							label: 'Storybook',
+							items: [{ autogenerate: { directory: 'guides/storybook' } }],
+						},
+						{
+							label: 'Design tokens workflow',
+							items: [{ autogenerate: { directory: 'guides/design-tokens-workflow' } }],
+						},
+					],
+				},
 				{
 					label: 'Reference',
 					items: [{

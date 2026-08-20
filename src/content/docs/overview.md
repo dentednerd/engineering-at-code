@@ -7,7 +7,7 @@ description: An overview of this hub.
 
 ## Architecture
 
-Engineering at Code is built in [Astro](https://astro.build/), using the [Starlight](https://starlight.astro.build/) template. All the design elements are abstracted away from the project itself; all we need to be concerned with is the `src/content/docs` folder, and occasionally, the Starlight integration in `astro.config.mjs`.
+Engineering at Code is built in [Astro](https://astro.build/), using the [Starlight](https://starlight.astro.build/) template. All the design elements are abstracted away from the project itself; all we need to be concerned with is the `src/content/docs` folder, where we place our documentation, and the Starlight integration in `astro.config.mjs`, in which we can configure the sidebar.
 
 ## Structure
 

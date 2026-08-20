@@ -50,6 +50,10 @@ export default async function Page({ params }: PageProps<"/[uid]">) {
 }
 ```
 
+## How we use Prismic
+
+Prismic is the CMS on the Elevate project.
+
 ## Further reading
 
 - [Prismic docs](https://prismic.io/docs)

@@ -31,6 +31,10 @@ description: A reference page about Trustpilot, the review platform.
 - **Public vs. private APIs**: public API endpoints require only an API key (Client ID); private API endpoints require full OAuth 2.0 authentication.
 - **Widgets**: embeddable components businesses use to display live reviews, star ratings, or TrustScore badges on their own websites and in email marketing.
 
+## How we use Trustpilot
+
+We integrate Trustpilot into the Elevate project in order to share customer reviews.
+
 ## Further reading
 
 - [Developer documentation](https://developers.trustpilot.com)

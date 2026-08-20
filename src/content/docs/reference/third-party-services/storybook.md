@@ -18,10 +18,10 @@ description: A reference page about Storybook, the frontend workshop.
 Install into an existing project, or scaffold a new one:
 
 ```bash
-npx storybook@latest init
+npm create storybook@latest
 ```
 
-This detects your framework and sets up configuration, example stories, and commonly used addons automatically. Once installed, run the local dev server (typically `npm run storybook`) to open the Storybook UI in your browser.
+This detects your framework and sets up configuration, example stories, and commonly used addons automatically. Once installed, run the local dev server with `npm run storybook` to open the Storybook UI in your browser, [http://localhost:6006](http://localhost:6006) by default.
 
 ## Key concepts
 
@@ -35,6 +35,12 @@ This detects your framework and sets up configuration, example stories, and comm
 - **Publishing** — deploying a built Storybook as a static site, so it can be shared with a wider team or embedded elsewhere.
 
 > We published the Storybook for the Elevate project here: [storybook.hdelevate.eu](https://storybook.hdelevate.eu/)
+
+## How we use Storybook
+
+Storybook acts as the bridge between designers and developers. It helps us to talk about individual components in isolation.
+
+See: [Guides > Storybook](/guides/storybook/writing-a-story)
 
 ## Further reading
 

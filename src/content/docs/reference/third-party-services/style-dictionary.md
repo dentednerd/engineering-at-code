@@ -34,6 +34,12 @@ npm install -g style-dictionary
 npm install -D style-dictionary
 ```
 
+## How we use Style Dictionary
+
+When we run `npm run build:tokens` in a project, Style Dictionary converts the design tokens from JSON into CSS custom properties.
+
+See: [Guides > Style Dictionary](/guides/style-dictionary/style-dictionary)
+
 ## Further reading
 
 - [Tokens Studio: Style Dictionary + SD Transforms](https://docs.tokens.studio/transform-tokens/style-dictionary)
