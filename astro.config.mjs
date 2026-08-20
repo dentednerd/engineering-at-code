@@ -3,6 +3,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+	site: 'https://dentednerd.github.io',
+	base: '/engineering-at-code',
 	integrations: [
 		starlight({
 			title: 'Engineering at Code',
