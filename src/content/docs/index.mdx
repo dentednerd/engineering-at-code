@@ -7,34 +7,30 @@ hero:
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Contribution Guide
+    - text: Welcome!
+      link: /engineering-at-code/overview/
+      icon: right-arrow
+    - text: How to contribute
       link: /engineering-at-code/contribution-guide/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Guides
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Tokens Studio for Figma" icon="document">
+		[Get set up with the plugin.](/engineering-at-code/guides/tokens-studio-for-figma/1-get-started/)
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Storybook" icon="document">
+		[Take a look at the features we use the most.](/engineering-at-code/guides/storybook/writing-a-story/)
 	</Card>
-	<Card title="Add new content" icon="add-document">
+	<Card title="Design tokens workflow" icon="document">
+		[A guide to the creation and implementation of design tokens.](/engineering-at-code/guides/design-tokens-workflow/0-what-are-design-tokens/)
+	</Card>
+	<Card title="We need more content!" icon="add-document">
 		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
 	</Card>
 </CardGrid>
