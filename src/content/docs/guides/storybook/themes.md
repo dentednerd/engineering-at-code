@@ -11,9 +11,8 @@ Storybook has support for themes, when your project uses either a theme provider
 
 Our solution uses `preview.globalTypes` to add a theme switcher to the Storybook UI, and harnesses `preview.decorators` to dynamically grab the correct stylesheets based on the selected theme.
 
-In `.storybook/preview.tsx`:
-
 ```tsx
+// .storybook/preview.tsx
 const preview: Preview = {
 
   parameters: {...},

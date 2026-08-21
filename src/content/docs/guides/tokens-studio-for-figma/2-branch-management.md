@@ -28,10 +28,12 @@ A branch exists for a specific piece of work. A good rule of thumb is to create 
 
 6. Name your branch, using either camelCase or kebab-case, the ticket number, and a brief description of the work, usually no more than 3 words.
 
-> Examples of branch names:
->
-> - T-1234-newFeature
-> - X-789-brand-new-idea
+:::note[Examples of branch names]
+
+- `T-1234-newFeature`
+- `X-789-brand-new-idea`
+
+:::
 
 If you have unsynced changes whilst creating a new branch (shown as a blue push indicator), Tokens Studio will prompt you to push them first so nothing is lost.
 
@@ -45,11 +47,13 @@ If you have unsynced changes whilst creating a new branch (shown as a blue push 
   - Merge your branch to main once the PR is approved
 3. Whilst your branch is under review, you can create a new branch for your next ticket. Be sure to create the ticket from `main`, and not your unmerged branch.
 
-> Token Studio will warn you that it will override the tokens from your unmerged branch. **THIS IS EXPECTED AND OK.**
->
-> These tokens will reappear in `main` after developers complete the pull request, so you'll see them on your next pull from `main`.
->
-> It's useful to copy the tokens created from the "Diff" tab of your unmerged branch, and add them to the ticket as a backup, just in case you need to re-apply them before your branch is merged.
+:::caution[Help! I got a warning about overriding my tokens when I created a branch!]
+Token Studio will warn you that the new branch will override the tokens from your unmerged branch. **THIS IS EXPECTED AND OK.**
+
+These tokens will reappear in `main` after developers complete the pull request, so you'll see them on your next pull from `main`.
+
+It's useful to copy the tokens created from the "Diff" tab of your unmerged branch, and add them to the ticket as a backup, just in case you need to re-apply them before your branch is merged.
+:::
 
 ## Exporting styles to Figma
 
@@ -69,6 +73,6 @@ If you have unsynced changes whilst creating a new branch (shown as a blue push 
 
 ![The Export to Figma: Options panel.](../../../../assets/tokens-studio/tokens-studio-2-d.png)
 
-## Recovering changes
-
+:::caution[Recovering changes after a restart]
 If Figma closes or restarts, reopen Token Studio and click **Recover Local Changes**. You may need to reselect your branch.
+:::

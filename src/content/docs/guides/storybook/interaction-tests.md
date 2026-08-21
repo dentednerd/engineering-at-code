@@ -57,12 +57,14 @@ export const ValidationError: Story = {
 };
 ```
 
-How it works:
+:::note[How it works]
 
 - `play` is an async function that runs after the story renders. It's where you script interactions.
 - `within(canvasElement)` scopes Testing Library queries to the rendered story, not the whole document.
 - `userEvent` simulates real user input (clicks, typing, keyboard navigation) more realistically than firing raw DOM events.
 - `expect` makes assertions on the result.
+
+:::
 
 Interaction tests run live in the Storybook UI (visible step-by-step in the Interactions panel) and can also run headlessly in CI via the Storybook test runner:
 

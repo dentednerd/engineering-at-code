@@ -19,12 +19,16 @@ const meta: Meta<typeof Button> = {
 };
 ```
 
-What you get on the generated page:
+In Storybook, under "Button", you'll see a new stories entitled "Docs".
 
-- A live preview of the primary story, the first named export in the stories file.
-- A Controls table listing every prop, its type, default value, and description. These details are pulled from TypeScript types and JSDoc comments on the component.
-- A canvas showing all other stories for the component.
-- Any JSDoc comments that you've added to the component, as a description.
+:::note[What's on an autodocs page?]
+
+- A **live preview** of the primary story, the first named export in the stories file.
+- A **Controls table** listing every prop, its type, default value, and description. These details are pulled from TypeScript types and JSDoc comments on the component.
+- A canvas showing **all other stories** for the component.
+- Any **JSDoc comments** that you've added to the component, as a description.
+
+:::
 
 ## Best practices
 

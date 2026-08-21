@@ -7,7 +7,7 @@ This guide explains how to get started with Tokens Studio for Figma, including i
 
 ## Before you begin
 
-This guide requires you to have the following information:
+This guide requires you to have the following information to hand:
 
 - a Tokens Studio Pro licence key
 - an Azure PAT (personal access token)

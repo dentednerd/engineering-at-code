@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-This is a guide to embedding Figma designs in Storybook. It is intended for **developers**.
+This is a guide to embedding Figma designs in Storybook. It is intended for **designers and developers**.
 
 [The Designs addon for Storybook](https://storybook.js.org/addons/@storybook/addon-designs) lets you place a live Figma frame alongside a story, so you can compare implementation against design pixel-for-pixel.
 
@@ -57,7 +57,13 @@ const meta: Meta<TButton> = {
 };
 ```
 
-This adds a Design tab next to the Canvas and Docs tabs, rendering the linked Figma frame directly in Storybook. It's particularly useful during implementation review: a reviewer can toggle between the built component and the design without leaving the browser tab, and designers can leave comments in Figma that stay linked to the exact component they refer to.
+:::note[What this does in Storybook]
+On an individual component story (not a Docs story), in the Addons panel, you'll see a new tab titled "Design". Clicking this tab will render the linked Figma frame directly in the panel. You can zoom in and move around, but you can't make edits from here.
+
+It's particularly useful during implementation review: a reviewer can toggle between the built component and the design without leaving the browser tab, and designers can leave comments in Figma that stay linked to the exact component they refer to.
+
+![A story from the Elevate Storybook, showing the Designs tab with a Figma design below a story](../../../../assets/storybook/embedding-figma-designs.png)
+:::
 
 ## Best practices
 
