@@ -3,11 +3,11 @@ title: Contributing
 description: A guide to writing docs for this hub.
 ---
 
-Every engineer at Code is welcome to add and update docs in this hub.
+Every engineer at Code is welcome to add and update docs in this hub. We have a [project board](https://github.com/users/dentednerd/projects/2) to keep track of our updates. Feel free to add tickets for additions you'd like to see, or to pick up a ticket in any order you'd like.
 
 ## Adding and updating docs
 
-1. At the moment, this is hosted on Github. On Slack, DM your Github handle to Joey to be granted contributor access.
+1. At the moment, this is hosted on Github. On Slack, DM your Github handle to Joey to be granted contributor access to the codebase and to the [project board](https://github.com/users/dentednerd/projects/2).
 2. Clone the repo from [github.com/dentednerd/engineering-at-code](https://github.com/dentednerd/engineering-at-code).
 3. Setup locally:
 

@@ -14,8 +14,7 @@ export default defineConfig({
 					label: 'Welcome!',
 					items: [
 						'overview',
-						'contribution-guide',
-						'to-do'
+						'contribution-guide'
 					]
 				},
 				{
