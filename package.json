@@ -12,9 +12,10 @@
     "cf:dev": "astro build && wrangler dev"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.41.7",
-    "astro": "^7.1.6",
-    "sharp": "^0.35.3"
+    "@astrojs/starlight": "^0.42.5",
+    "astro": "^7.3.5",
+    "sharp": "^0.35.3",
+    "starlight-save-file-component": "^0.2.0"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"

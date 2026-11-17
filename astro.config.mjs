@@ -18,6 +18,10 @@ export default defineConfig({
 					]
 				},
 				{
+					label: 'Dev discipline',
+					items: [{ autogenerate: { directory: 'dev-discipline' } }]
+				},
+				{
 					label: 'Guides',
 					items: [
 						{
